@@ -77,8 +77,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/main/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="486" column="60" selection-start-line="486" selection-start-column="60" selection-end-line="486" selection-end-column="60" />
+            <state relative-caret-position="377">
+              <caret line="822" lean-forward="true" selection-start-line="822" selection-end-line="822" />
+              <folding>
+                <element signature="e#3356#3431#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,8 +99,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;img src=&quot;(.+)&quot;&gt;</find>
-      <find>&lt;img src=&quot;(.+)&quot; alt</find>
       <find>&lt;img src=&quot;(.+)&quot; alt=&quot;&quot;</find>
       <find>alt=&quot;&quot;</find>
       <find>&lt;img src=&quot;(.+)&quot; class=&quot;(.+)&quot;&gt;</find>
@@ -126,6 +127,8 @@
       <find>precompile</find>
       <find>img/portfo</find>
       <find>href=&quot;img/po</find>
+      <find>Dr</find>
+      <find>nam libero</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;%= %&gt;</replace>
@@ -459,12 +462,12 @@
       <workItem from="1540412463650" duration="3197000" />
       <workItem from="1540415990865" duration="1000" />
       <workItem from="1540416029037" duration="536000" />
-      <workItem from="1540420479839" duration="1046000" />
+      <workItem from="1540420479839" duration="1655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7087000" />
+    <option name="totallyTimeSpent" value="7696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="88" y="-5" width="1833" height="1086" extended-state="6" />
@@ -597,8 +600,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="486" column="60" selection-start-line="486" selection-start-column="60" selection-end-line="486" selection-end-column="60" />
+        <state relative-caret-position="377">
+          <caret line="822" lean-forward="true" selection-start-line="822" selection-end-line="822" />
+          <folding>
+            <element signature="e#3356#3431#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
