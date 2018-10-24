@@ -4,7 +4,7 @@
     <div id="logo" class="pull-left">
       <h1><a href="#intro" class="scrollto">BizPage</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
+      <!-- <a href="#intro"><img src="img/logo.png" title="" /></a>-->
     </div>
 
     <nav id="nav-menu-container">
@@ -39,7 +39,7 @@
 
       <div class="carousel-inner" role="listbox">
 
-        <div class="carousel-item active" style="background-image: url('img/intro-carousel/1.jpg');">
+        <div class="carousel-item active" style="background-image: url(<%= asset_url "img/intro-carousel/1.jpg" %>);">
           <div class="carousel-container">
             <div class="carousel-content">
               <h2>We are professional</h2>
@@ -49,7 +49,7 @@
           </div>
         </div>
 
-        <div class="carousel-item" style="background-image: url('img/intro-carousel/2.jpg');">
+        <div class="carousel-item" style="background-image: url(<%= asset_url "img/intro-carousel/2.jpg" %>);">
           <div class="carousel-container">
             <div class="carousel-content">
               <h2>At vero eos et accusamus</h2>
@@ -59,7 +59,7 @@
           </div>
         </div>
 
-        <div class="carousel-item" style="background-image: url('img/intro-carousel/3.jpg');">
+        <div class="carousel-item" style="background-image: url(<%= asset_url "img/intro-carousel/3.jpg" %>);">
           <div class="carousel-container">
             <div class="carousel-content">
               <h2>Temporibus autem quibusdam</h2>
@@ -69,7 +69,7 @@
           </div>
         </div>
 
-        <div class="carousel-item" style="background-image: url('img/intro-carousel/4.jpg');">
+        <div class="carousel-item" style="background-image: url(<%= asset_url "img/intro-carousel/4.jpg" %>);">
           <div class="carousel-container">
             <div class="carousel-content">
               <h2>Nam libero tempore</h2>
@@ -79,7 +79,7 @@
           </div>
         </div>
 
-        <div class="carousel-item" style="background-image: url('img/intro-carousel/5.jpg');">
+        <div class="carousel-item" style="background-image: url(<%= asset_url "img/intro-carousel/5.jpg" %>);">
           <div class="carousel-container">
             <div class="carousel-content">
               <h2>Magnam aliquam quaerat</h2>
@@ -152,7 +152,7 @@
         <div class="col-md-4 wow fadeInUp">
           <div class="about-col">
             <div class="img">
-              <img src="img/about-mission.jpg" alt="" class="img-fluid">
+              <%= image_tag("img/about-mission.jpg",class: "img-fluid") %>
               <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
             </div>
             <h2 class="title"><a href="#">Our Mission</a></h2>
@@ -165,7 +165,7 @@
         <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
           <div class="about-col">
             <div class="img">
-              <img src="img/about-plan.jpg" alt="" class="img-fluid">
+              <%= image_tag("img/about-plan.jpg",class: "img-fluid") %>
               <div class="icon"><i class="ion-ios-list-outline"></i></div>
             </div>
             <h2 class="title"><a href="#">Our Plan</a></h2>
@@ -178,7 +178,7 @@
         <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
           <div class="about-col">
             <div class="img">
-              <img src="img/about-vision.jpg" alt="" class="img-fluid">
+              <%= image_tag("img/about-vision.jpg",class: "img-fluid") %>
               <div class="icon"><i class="ion-ios-eye-outline"></i></div>
             </div>
             <h2 class="title"><a href="#">Our Vision</a></h2>
@@ -331,7 +331,7 @@
       </div>
 
       <div class="facts-img">
-        <img src="img/facts-img.png" alt="" class="img-fluid">
+        <%= image_tag("img/facts-img.png",class: "img-fluid") %>
       </div>
 
     </div>
@@ -363,7 +363,7 @@
         <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
           <div class="portfolio-wrap">
             <figure>
-              <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
+              <%= image_tag("img/portfolio/app1.jpg",class: "img-fluid") %>
               <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
               <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
             </figure>
@@ -378,7 +378,7 @@
         <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
           <div class="portfolio-wrap">
             <figure>
-              <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+              <%= image_tag("img/portfolio/web3.jpg",class: "img-fluid") %>
               <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
               <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
             </figure>
@@ -393,7 +393,7 @@
         <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
           <div class="portfolio-wrap">
             <figure>
-              <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
+              <%= image_tag("img/portfolio/app2.jpg",class: "img-fluid") %>
               <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
               <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
             </figure>
@@ -408,7 +408,7 @@
         <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
           <div class="portfolio-wrap">
             <figure>
-              <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+              <%= image_tag("img/portfolio/card2.jpg",class: "img-fluid") %>
               <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
               <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
             </figure>
@@ -423,7 +423,7 @@
         <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
           <div class="portfolio-wrap">
             <figure>
-              <img src="img/portfolio/web2.jpg" class="img-fluid" alt="">
+              <%= image_tag("img/portfolio/web2.jpg",class: "img-fluid") %>
               <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
               <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
             </figure>
@@ -438,7 +438,7 @@
         <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
           <div class="portfolio-wrap">
             <figure>
-              <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+              <%= image_tag("img/portfolio/app3.jpg",class: "img-fluid") %>
               <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
               <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
             </figure>
@@ -453,7 +453,7 @@
         <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
           <div class="portfolio-wrap">
             <figure>
-              <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
+              <%= image_tag("img/portfolio/card1.jpg",class: "img-fluid") %>
               <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
               <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
             </figure>
@@ -468,7 +468,7 @@
         <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
           <div class="portfolio-wrap">
             <figure>
-              <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
+              <%= image_tag("img/portfolio/card3.jpg",class: "img-fluid") %>
               <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
               <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
             </figure>
@@ -483,7 +483,7 @@
         <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
           <div class="portfolio-wrap">
             <figure>
-              <img src="img/portfolio/web1.jpg" class="img-fluid" alt="">
+              <%= image_tag("img/portfolio/web1.jpg",class: "img-fluid") %>
               <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
               <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
             </figure>
@@ -511,14 +511,14 @@
       </header>
 
       <div class="owl-carousel clients-carousel">
-        <img src="img/clients/client-1.png" alt="">
-        <img src="img/clients/client-2.png" alt="">
-        <img src="img/clients/client-3.png" alt="">
-        <img src="img/clients/client-4.png" alt="">
-        <img src="img/clients/client-5.png" alt="">
-        <img src="img/clients/client-6.png" alt="">
-        <img src="img/clients/client-7.png" alt="">
-        <img src="img/clients/client-8.png" alt="">
+        <%= image_tag "img/clients/client-2.png" %>
+        <%= image_tag "img/clients/client-1.png" %>
+        <%= image_tag "img/clients/client-3.png" %>
+        <%= image_tag "img/clients/client-4.png" %>
+        <%= image_tag "img/clients/client-5.png" %>
+        <%= image_tag "img/clients/client-6.png" %>
+        <%= image_tag "img/clients/client-7.png" %>
+        <%= image_tag "img/clients/client-8.png" %>
       </div>
 
     </div>
@@ -537,57 +537,57 @@
       <div class="owl-carousel testimonials-carousel">
 
         <div class="testimonial-item">
-          <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
+          <%= image_tag("img/testimonial-1.jpg",class: "testimonial-img") %>
           <h3>Saul Goodman</h3>
           <h4>Ceo &amp; Founder</h4>
           <p>
-            <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+            <%= image_tag("img/quote-sign-left.png",class: "quote-sign-left") %>
             Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-            <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            <%= image_tag("img/quote-sign-right.png",class: "quote-sign-right") %>
           </p>
         </div>
 
         <div class="testimonial-item">
-          <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
+          <%= image_tag("img/testimonial-2.jpg",class: "testimonial-img") %>
           <h3>Sara Wilsson</h3>
           <h4>Designer</h4>
           <p>
-            <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+            <%= image_tag("img/quote-sign-left.png",class: "quote-sign-left") %>
             Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-            <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            <%= image_tag("img/quote-sign-right.png",class: "quote-sign-right") %>
           </p>
         </div>
 
         <div class="testimonial-item">
-          <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
+          <%= image_tag("img/testimonial-3.jpg",class: "testimonial-img") %>
           <h3>Jena Karlis</h3>
           <h4>Store Owner</h4>
           <p>
-            <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+            <%= image_tag("img/quote-sign-left.png",class: "quote-sign-left") %>
             Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-            <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            <%= image_tag("img/quote-sign-right.png",class: "quote-sign-right") %>
           </p>
         </div>
 
         <div class="testimonial-item">
-          <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
+          <%= image_tag("img/testimonial-4.jpg",class: "testimonial-img") %>
           <h3>Matt Brandon</h3>
           <h4>Freelancer</h4>
           <p>
-            <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+            <%= image_tag("img/quote-sign-left.png",class: "quote-sign-left") %>
             Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-            <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            <%= image_tag("img/quote-sign-right.png",class: "quote-sign-right") %>
           </p>
         </div>
 
         <div class="testimonial-item">
-          <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
+          <%= image_tag("img/testimonial-5.jpg",class: "testimonial-img") %>
           <h3>John Larson</h3>
           <h4>Entrepreneur</h4>
           <p>
-            <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+            <%= image_tag("img/quote-sign-left.png",class: "quote-sign-left") %>
             Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-            <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            <%= image_tag("img/quote-sign-right.png",class: "quote-sign-right") %>
           </p>
         </div>
 
@@ -610,7 +610,7 @@
 
         <div class="col-lg-3 col-md-6 wow fadeInUp">
           <div class="member">
-            <img src="img/team-1.jpg" class="img-fluid" alt="">
+            <%= image_tag("img/team-1.jpg",class: "img-fluid") %>
             <div class="member-info">
               <div class="member-info-content">
                 <h4>Walter White</h4>
@@ -628,7 +628,7 @@
 
         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="member">
-            <img src="img/team-2.jpg" class="img-fluid" alt="">
+            <%= image_tag("img/team-2.jpg",class: "img-fluid") %>
             <div class="member-info">
               <div class="member-info-content">
                 <h4>Sarah Jhonson</h4>
@@ -646,7 +646,7 @@
 
         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
           <div class="member">
-            <img src="img/team-3.jpg" class="img-fluid" alt="">
+            <%= image_tag("img/team-3.jpg",class: "img-fluid") %>
             <div class="member-info">
               <div class="member-info-content">
                 <h4>William Anderson</h4>
@@ -664,7 +664,7 @@
 
         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
           <div class="member">
-            <img src="img/team-4.jpg" class="img-fluid" alt="">
+            <%= image_tag("img/team-4.jpg",class: "img-fluid") %>
             <div class="member-info">
               <div class="member-info-content">
                 <h4>Amanda Jepson</h4>
@@ -830,18 +830,7 @@
 <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
 <!-- JavaScript Libraries -->
-<script src="lib/jquery/jquery-migrate.min.js"></script>
-<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="lib/easing/easing.min.js"></script>
-<script src="lib/superfish/hoverIntent.js"></script>
-<script src="lib/superfish/superfish.min.js"></script>
-<script src="lib/wow/wow.min.js"></script>
-<script src="lib/waypoints/waypoints.min.js"></script>
-<script src="lib/counterup/counterup.min.js"></script>
-<script src="lib/owlcarousel/owl.carousel.min.js"></script>
-<script src="lib/isotope/isotope.pkgd.min.js"></script>
-<script src="lib/lightbox/js/lightbox.min.js"></script>
-<script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+
 <%= javascript_include_tag "lib/jquery/jquery-migrate.min.js" %>
 <%= javascript_include_tag "lib/bootstrap/js/bootstrap.bundle.min.js" %>
 <%= javascript_include_tag "lib/easing/easing.min.js" %>
@@ -855,9 +844,7 @@
 <%= javascript_include_tag "lib/lightbox/js/lightbox.min.js" %>
 <%= javascript_include_tag "lib/touchSwipe/jquery.touchSwipe.min.js" %>
 <!-- Contact Form JavaScript File -->
-<script src="contactform/contactform.js"></script>
 <%= javascript_include_tag "contactform/contactform.js" %>
 
 <!-- Template Main Javascript File -->
-<script src="js/main.js"></script>
 <%= javascript_include_tag "js/main.js" %>
