@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5be7581-706d-4734-be5f-bbf9b4fb9b99" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/main/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main/index.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -20,18 +22,20 @@
     <session id="-299514455">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Gemfile" value="1" />
           <entry key="css" value="2" />
-          <entry key="erb" value="3" />
+          <entry key="erb" value="4" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="1" />
           <entry key="js" value="2" />
@@ -46,7 +50,7 @@
           <entry key="HTML" value="1" />
           <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="RHTML" value="3" />
+          <entry key="RHTML" value="4" />
           <entry key="Ruby" value="6" />
           <entry key="SCSS" value="5" />
         </counts>
@@ -55,7 +59,7 @@
         <counts>
           <entry key="Gemfile" value="34" />
           <entry key="css" value="6" />
-          <entry key="erb" value="439" />
+          <entry key="erb" value="595" />
           <entry key="rb" value="164" />
           <entry key="ruby-version" value="2" />
           <entry key="scss" value="21" />
@@ -65,7 +69,7 @@
         <counts>
           <entry key="CSS" value="6" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="RHTML" value="439" />
+          <entry key="RHTML" value="595" />
           <entry key="Ruby" value="198" />
           <entry key="SCSS" value="21" />
         </counts>
@@ -77,20 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/main/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="822" lean-forward="true" selection-start-line="822" selection-end-line="822" />
-              <folding>
-                <element signature="e#3356#3431#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            <state relative-caret-position="300">
+              <caret line="596" column="16" selection-start-line="596" selection-start-column="16" selection-end-line="596" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -99,10 +91,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;img src=&quot;(.+)&quot; alt=&quot;&quot;</find>
-      <find>alt=&quot;&quot;</find>
-      <find>&lt;img src=&quot;(.+)&quot; class=&quot;(.+)&quot;&gt;</find>
-      <find>image_tag(.+)&quot;,</find>
       <find>image_tag</find>
       <find>w%</find>
       <find>client</find>
@@ -129,6 +117,10 @@
       <find>href=&quot;img/po</find>
       <find>Dr</find>
       <find>nam libero</find>
+      <find>email</find>
+      <find>contact us</find>
+      <find>testimo</find>
+      <find>team</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;%= %&gt;</replace>
@@ -165,9 +157,6 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/package.json" />
@@ -184,7 +173,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,7 +307,36 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="RailsProjectView" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="bizpage-rails" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="bizpage-rails" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="bizpage-rails" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="bizpage-rails" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -463,17 +480,21 @@
       <workItem from="1540415990865" duration="1000" />
       <workItem from="1540416029037" duration="536000" />
       <workItem from="1540420479839" duration="1655000" />
+      <workItem from="1540425503202" duration="69000" />
+      <workItem from="1540425574844" duration="128000" />
+      <workItem from="1540425724062" duration="72000" />
+      <workItem from="1540425823947" duration="216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7696000" />
+    <option name="totallyTimeSpent" value="8181000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="88" y="-5" width="1833" height="1086" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18704225" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19830985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -486,7 +507,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30960086" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30960086" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -593,18 +614,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="500">
           <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="822" lean-forward="true" selection-start-line="822" selection-end-line="822" />
-          <folding>
-            <element signature="e#3356#3431#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="596" column="16" selection-start-line="596" selection-start-column="16" selection-end-line="596" selection-end-column="16" />
         </state>
       </provider>
     </entry>
