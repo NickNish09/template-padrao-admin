@@ -81,3 +81,5 @@ Rails.application.config.assets.precompile += %w(img/intro-carousel/2.jpg)
 Rails.application.config.assets.precompile += %w(img/intro-carousel/3.jpg)
 Rails.application.config.assets.precompile += %w(img/intro-carousel/4.jpg)
 Rails.application.config.assets.precompile += %w(img/intro-carousel/5.jpg)
+
+Rails.application.config.assets.precompile += %w( admin.css admin.js )
