@@ -22,6 +22,9 @@ gem 'devise'
 #rolify para controle de admin
 gem 'rolify'
 
+#toastr para mensagens
+gem 'toastr-rails'
+
 # Bootstrap 4
 gem 'bootstrap', '~> 4.1.3'
 # Jquery
