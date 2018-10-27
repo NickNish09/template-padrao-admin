@@ -1,44 +1,58 @@
-<p id="notice"><%= notice %></p>
+<div class="card-deck">
+  <div class="card col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-4">
+    <div class="card-body">
+      <h5 class="card-title mb-4">Texto</h5>
+      <div class="row d-flex align-items-center justify-items-center flex-column">
+        <div class="text-center mt-3">
+          <i class="fa fa-quote-right icon-grey-big"></i>
+        </div>
+        <p class="font-italic text-muted mt-3 mb-4 text-center">
+          <%= @contact.body %>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="card col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-4">
+    <div class="card-body">
+      <h5 class="card-title mb-4">Endereço</h5>
+      <div class="row d-flex align-items-center justify-items-center flex-column">
+        <div class="text-center mt-3">
+          <i class="fa fa-address-book icon-grey-big"></i>
+        </div>
+        <p class="font-italic text-muted mt-3 mb-4 text-center">
+          <%= @contact.full_address %>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="card col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-4">
+    <div class="card-body">
+      <h5 class="card-title mb-4">Telefone</h5>
+      <div class="row d-flex align-items-center justify-items-center flex-column">
+        <div class="text-center mt-3">
+          <i class="fa fa-phone icon-grey-big"></i>
+        </div>
+        <p class="font-italic text-muted mt-3 mb-4 text-center">
+          <%= @contact.phone %>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card-deck">
+  <div class="card col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-4">
+    <div class="card-body">
+      <h5 class="card-title mb-4">Email</h5>
+      <div class="row d-flex align-items-center justify-items-center flex-column">
+        <div class="text-center mt-3">
+          <i class="fa fa-envelope icon-grey-big"></i>
+        </div>
+        <p class="font-italic text-muted mt-3 mb-4 text-center">
+          <%= @contact.email %>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
-<p>
-  <strong>Body:</strong>
-  <%= @contact.body %>
-</p>
-
-<p>
-  <strong>City:</strong>
-  <%= @contact.city %>
-</p>
-
-<p>
-  <strong>Uf:</strong>
-  <%= @contact.uf %>
-</p>
-
-<p>
-  <strong>Number:</strong>
-  <%= @contact.number %>
-</p>
-
-<p>
-  <strong>Neighborhood:</strong>
-  <%= @contact.neighborhood %>
-</p>
-
-<p>
-  <strong>Cep:</strong>
-  <%= @contact.cep %>
-</p>
-
-<p>
-  <strong>Phone:</strong>
-  <%= @contact.phone %>
-</p>
-
-<p>
-  <strong>Email:</strong>
-  <%= @contact.email %>
-</p>
-
-<%= link_to 'Edit', edit_contact_path(@contact) %> |
-<%= link_to 'Back', contacts_path %>
+<%= link_to "Editar", edit_admin_contact_path(@contact),class: "btn btn-primary" %>
