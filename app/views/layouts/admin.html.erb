@@ -20,8 +20,10 @@
 </head>
 
 <body>
-  <%= yield %>
-  <%= render 'layouts/admin/footer' %>
+  <div class=" container-scroller">
+    <%= yield %>
+    <%= render 'layouts/admin/footer' %>
+  </div>
 
   <%#= javascript_include_tag "node_modules/popper.js/dist/umd/popper.min.js" %>
   <%= javascript_include_tag "node_modules/chart.js/dist/Chart.min.js" %>
