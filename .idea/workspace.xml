@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5be7581-706d-4734-be5f-bbf9b4fb9b99" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin/contacts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/contacts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/admin/contacts/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/contacts/_form.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/admin/contacts/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/contacts/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/admin.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/admin.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/assets/star-admin/index.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -66,7 +60,7 @@
         <counts>
           <entry key="Gemfile" value="125" />
           <entry key="css" value="6" />
-          <entry key="erb" value="1534" />
+          <entry key="erb" value="1567" />
           <entry key="js" value="25" />
           <entry key="rb" value="846" />
           <entry key="ruby-version" value="2" />
@@ -78,7 +72,7 @@
           <entry key="CSS" value="6" />
           <entry key="JavaScript" value="25" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="RHTML" value="1534" />
+          <entry key="RHTML" value="1567" />
           <entry key="Ruby" value="971" />
           <entry key="SCSS" value="50" />
         </counts>
@@ -108,8 +102,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/admin/contacts/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="245">
+              <caret line="46" column="91" selection-start-line="46" selection-start-column="91" selection-end-line="46" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -126,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/admin/contacts/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            <state relative-caret-position="29">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -136,8 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>action_mailer.de</find>
-      <find>entre em</find>
       <find>contato</find>
       <find>cont</find>
       <find>image-url</find>
@@ -165,7 +157,9 @@
       <find>form</find>
       <find>&quot;field&quot;</find>
       <find>form.</find>
+      <find>cpf</find>
       <find>cep</find>
+      <find>telefo</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;%= %&gt;</replace>
@@ -519,18 +513,18 @@
       <workItem from="1540495945128" duration="759000" />
       <workItem from="1540613175781" duration="7257000" />
       <workItem from="1540620499277" duration="130000" />
-      <workItem from="1540622637827" duration="3147000" />
+      <workItem from="1540622637827" duration="3471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21624000" />
+    <option name="totallyTimeSpent" value="21948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="88" y="-5" width="1833" height="1086" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20957747" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20957747" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -543,7 +537,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.29881337" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29881337" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -842,8 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/contacts/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        <state relative-caret-position="29">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -856,8 +850,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/contacts/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="245">
+          <caret line="46" column="91" selection-start-line="46" selection-start-column="91" selection-end-line="46" selection-end-column="91" />
         </state>
       </provider>
     </entry>
