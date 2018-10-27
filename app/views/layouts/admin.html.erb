@@ -21,7 +21,11 @@
 
 <body>
   <div class=" container-scroller">
-    <%= yield %>
+    <%= render 'layouts/admin/navbar' %>
+    <%= render 'layouts/admin/sidebar' %>
+    <div class="content-wrapper">
+      <%= yield %>
+    </div>
     <%= render 'layouts/admin/footer' %>
   </div>
 

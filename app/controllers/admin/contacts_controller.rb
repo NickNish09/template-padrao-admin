@@ -1,6 +1,6 @@
 class Admin::ContactsController < ApplicationController
   before_action :set_contact, only: [:show, :edit, :update, :destroy]
-
+  layout 'admin'
   # GET /contacts
   # GET /contacts.json
   def index
