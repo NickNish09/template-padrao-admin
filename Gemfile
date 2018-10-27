@@ -19,6 +19,9 @@ gem 'uglifier', '>= 1.3.0'
 #devise para autenticação
 gem 'devise'
 
+#rolify para controle de admin
+gem 'rolify'
+
 # Bootstrap 4
 gem 'bootstrap', '~> 4.1.3'
 # Jquery
