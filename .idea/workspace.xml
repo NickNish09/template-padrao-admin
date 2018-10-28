@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5be7581-706d-4734-be5f-bbf9b4fb9b99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/admin/members/_editform.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/admin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/members.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/members.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/admin/members_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/members_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/main_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/main_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/members/_editform.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/members/_editform.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/members/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/members/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/members/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/members/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main/index.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -37,12 +39,12 @@
         <counts>
           <entry key="Gemfile" value="5" />
           <entry key="css" value="3" />
-          <entry key="erb" value="42" />
+          <entry key="erb" value="44" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="7" />
           <entry key="js" value="13" />
           <entry key="map" value="1" />
-          <entry key="rb" value="40" />
+          <entry key="rb" value="41" />
           <entry key="ruby-version" value="2" />
           <entry key="scss" value="18" />
           <entry key="yml" value="1" />
@@ -54,8 +56,8 @@
           <entry key="HTML" value="7" />
           <entry key="JavaScript" value="13" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="RHTML" value="42" />
-          <entry key="Ruby" value="45" />
+          <entry key="RHTML" value="44" />
+          <entry key="Ruby" value="46" />
           <entry key="SCSS" value="18" />
           <entry key="SourceMap" value="1" />
           <entry key="YAML" value="1" />
@@ -65,11 +67,11 @@
         <counts>
           <entry key="Gemfile" value="125" />
           <entry key="css" value="6" />
-          <entry key="erb" value="2866" />
+          <entry key="erb" value="3280" />
           <entry key="js" value="25" />
-          <entry key="rb" value="1203" />
+          <entry key="rb" value="1231" />
           <entry key="ruby-version" value="2" />
-          <entry key="scss" value="211" />
+          <entry key="scss" value="250" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -77,9 +79,9 @@
           <entry key="CSS" value="6" />
           <entry key="JavaScript" value="25" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="RHTML" value="2866" />
-          <entry key="Ruby" value="1328" />
-          <entry key="SCSS" value="211" />
+          <entry key="RHTML" value="3280" />
+          <entry key="Ruby" value="1356" />
+          <entry key="SCSS" value="250" />
         </counts>
       </usages-collector>
     </session>
@@ -98,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/admin/members_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="210">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -115,23 +117,41 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/admin/members/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/members/_form.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/main/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="57" column="63" lean-forward="true" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
+            <state relative-caret-position="348">
+              <caret line="634" lean-forward="true" selection-start-line="634" selection-end-line="634" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/main_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/members/_editform.html.erb">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/members.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            <state relative-caret-position="174">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -158,8 +178,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>devise</find>
-      <find>role</find>
       <find>admins</find>
       <find>bootstr</find>
       <find>dashboard</find>
@@ -188,6 +206,8 @@
       <find>.p-input</find>
       <find>inputfile</find>
       <find>enviar</find>
+      <find>time</find>
+      <find>Time</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;%= %&gt;</replace>
@@ -210,9 +230,7 @@
         <option value="$PROJECT_DIR$/vendor/assets/bizpage/css/style.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/main_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/contact.rb" />
-        <option value="$PROJECT_DIR$/app/views/main/index.html.erb" />
         <option value="$PROJECT_DIR$/vendor/assets/bizpage/css/style.scss" />
         <option value="$PROJECT_DIR$/app/controllers/admins/contacts_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/contacts/index.html.erb" />
@@ -243,15 +261,17 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/members/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/admin/members/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/admin/members_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/admin/members/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/admin/members/_editform.html.erb" />
         <option value="$PROJECT_DIR$/app/views/admin/members/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/models/member.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/members/new.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/admin.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/members.scss" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/members_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/members/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/admin/members/_editform.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/admin/members/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/main_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/main/index.html.erb" />
       </list>
     </option>
   </component>
@@ -543,18 +563,18 @@
       <workItem from="1540613175781" duration="7257000" />
       <workItem from="1540620499277" duration="130000" />
       <workItem from="1540622637827" duration="5167000" />
-      <workItem from="1540703177263" duration="5755000" />
+      <workItem from="1540703177263" duration="6551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29399000" />
+    <option name="totallyTimeSpent" value="30195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="88" y="-5" width="1833" height="1086" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21239437" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21239437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -567,7 +587,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21574973" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21574973" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -582,13 +602,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/main/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="687" column="24" selection-start-line="687" selection-start-column="24" selection-end-line="687" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/assets/bizpage/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
@@ -600,13 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="2" column="80" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/main_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -820,20 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/members/_editform.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/members/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -855,10 +847,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/member.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/admin/members/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="59" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/main_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/members/_editform.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/members.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -869,10 +878,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/member.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/members_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="210">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -884,19 +907,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/members/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/members.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        <state relative-caret-position="445">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/members/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/main/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="57" column="63" lean-forward="true" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
+        <state relative-caret-position="348">
+          <caret line="634" lean-forward="true" selection-start-line="634" selection-end-line="634" />
         </state>
       </provider>
     </entry>

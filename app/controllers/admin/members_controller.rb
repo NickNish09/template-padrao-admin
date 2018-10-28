@@ -25,7 +25,7 @@ class Admin::MembersController < ApplicationController
   # POST /members.json
   def create
     @member = Member.new(member_params)
-    @member.photo.attach(params[:avatar])
+    @member.photo.attach(params[:photo])
 
     respond_to do |format|
       if @member.save

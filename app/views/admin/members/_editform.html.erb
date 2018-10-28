@@ -11,42 +11,50 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :first_name %>
-    <%= form.text_field :first_name %>
-  </div>
-
-  <div class="field">
-    <%= form.label :last_name %>
-    <%= form.text_field :last_name %>
-  </div>
-
-  <div class="field">
-    <%= form.label :ocupation %>
-    <%= form.text_field :ocupation %>
-  </div>
-
-  <div class="field">
-    <%= form.label :twitter_url %>
-    <%= form.text_field :twitter_url %>
-  </div>
-
-  <div class="field">
-    <%= form.label :facebook_url %>
-    <%= form.text_field :facebook_url %>
-  </div>
-
-  <div class="field">
-    <%= form.label :instagram_url %>
-    <%= form.text_field :instagram_url %>
+  <div class="form-group">
+    <%= form.label :nome %>
+    <%= form.text_field :first_name, class: "form-control p-input", placeholder: "Nome" %>
   </div>
 
   <div class="form-group">
-    <%= form.label :foto %>
-    <%= form.file_field :photo %>
+    <%= form.label :sobrenome %>
+    <%= form.text_field :last_name, class: "form-control p-input", placeholder: "Sobrenome" %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :ocupação %>
+    <%= form.text_field :ocupation, class: "form-control p-input", placeholder: "Ex: Desenvolvedor" %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :twitter %>
+    <%= form.text_field :twitter_url, class: "form-control p-input", placeholder: "twitter.com/pessoa" %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :facebook %>
+    <%= form.text_field :facebook_url, class: "form-control p-input", placeholder: "facebook.com/pessoa" %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :instagram %>
+    <%= form.text_field :instagram_url, class: "form-control p-input", placeholder: "instagram.com/pessoa" %>
+  </div>
+
+  <!--  <div class="image-upload">-->
+  <!--    <label for="member_photo">-->
+  <!--      <span class="fa fa-camera"></span> Foto do Membro-->
+  <!--    </label>-->
+
+  <%#= form.file_field :photo %>
+  <!--  </div>-->
+
+  <div class="form-group">
+    <%= form.label :foto %><br>
+    <%= form.file_field :photo, class: "btn btn-block" %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit "Enviar", class: "btn btn-primary btn-block" %>
   </div>
 <% end %>

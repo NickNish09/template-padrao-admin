@@ -5,7 +5,9 @@
       <% @members.each do |member| %>
         <div class="row d-flex align-items-center justify-items-center flex-column">
           <div class="text-center">
-            <%= image_tag "images/faces/face8.jpg",class: "rounded-circle" %>
+            <% if member.photo.attached? %>
+              <%= image_tag member.photo,class: "rounded-circle avatar-img" %>
+            <% end %>
           </div>
           <div class="text-center mt-3">
             <i class="fa fa-address-book-o icon-grey-big"></i>
@@ -15,9 +17,8 @@
           <p>Facebook: <%= member.facebook_url %></p>
           <p>Twitter: <%= member.twitter_url %></p>
           <p>Instagram: <%= member.instagram_url %></p>
-          <%= link_to 'Show', admin_member_path(member) %>
-          <%= link_to 'Edit', edit_admin_member_path(member) %>
-          <%= link_to 'Destroy', admin_member_path(member), method: :delete, data: { confirm: 'Are you sure?' } %>
+          <%= link_to 'Editar', edit_admin_member_path(member), class: "btn btn-warning btn-block" %>
+          <%= link_to 'Deletar', admin_member_path(member), method: :delete, data: { confirm: 'Quer mesmo deletar esse membro?' },class: "btn btn-danger btn-block" %>
         </div>
       <% end %>
     </div>
@@ -26,4 +27,4 @@
 
 <br>
 
-<%= link_to 'New Member', new_admin_member_path %>
+<%= link_to 'Novo Membro', new_admin_member_path, class: "btn btn-success" %>
