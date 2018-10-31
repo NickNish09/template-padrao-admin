@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get 'admin/index'
   namespace :admin do
     resources :contacts
+    resources :members
   end
   devise_for :users
   root to: "main#index"
