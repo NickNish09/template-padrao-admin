@@ -12,6 +12,6 @@ Contact.create(body: "Sed ut perspiciatis unde omnis iste natus error sit volupt
                neighborhood: "Bairro",
                number: 000,
                cep: "XX.XXX-XXX",
-               phone: "(XX)XXXXX-XXXX",
+               phone: "(XX) XXXXX-XXXX",
                email: "email@exemplo.com"
 )
